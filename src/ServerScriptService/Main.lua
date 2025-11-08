@@ -1,7 +1,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Structures = ReplicatedStorage:WaitForChild("Structures")
 local StartEvent = ReplicatedStorage:WaitForChild("START")
-local GameModule = require(script.Game)
+local GameModule = require(script.Parent.Game)
 
 local empezo = false 
 
