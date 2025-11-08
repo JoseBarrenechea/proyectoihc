@@ -3,7 +3,7 @@ local Structures = ReplicatedStorage:WaitForChild("Structures")
 local queue = require(Structures:WaitForChild("Queue"))
 local Client = require(Structures:WaitForChild("Client"))
 local RandomSet = require(Structures:WaitForChild("RandomSet"))
-local PathfindingModule = require(script.Parent.Parent.PathfindingModule)
+local PathfindingModule = require(script.Parent.PathfindingModule)
 local tw = game:GetService("TweenService")
 local y_botones_ini,y_botones_fi = -2,5.5
 	
